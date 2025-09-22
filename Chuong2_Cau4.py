@@ -1,38 +1,49 @@
-# 1. Số (Numbers)
-a = 10          # int
-b = 3.14        # float
-c = 2 + 3j      # complex
+'''
+1. Số nguyên (Integer):
 
-print("a:", a, type(a))
-print("b:", b, type(b))
-print("c:", c, type(c))
+Kiểu int dùng để lưu trữ các số nguyên.
 
-# 2. Chuỗi (String)
-s = "Hello Python"
-print("s:", s, type(s))
+Ví dụ: x = 5, y = -10.
 
-# 3. Kiểu logic (Boolean)
-x = True
-y = False
-print("x:", x, type(x))
-print("y:", y, type(y))
+2. Số thực (Floating-point number):
 
-# 4. Danh sách (List)
-my_list = [1, 2, 3, "apple"]
-print("my_list:", my_list, type(my_list))
+Kiểu float dùng để lưu trữ các số có phần thập phân.
 
-# 5. Bộ (Tuple)
-my_tuple = (10, 20, 30)
-print("my_tuple:", my_tuple, type(my_tuple))
+Ví dụ: pi = 3.14, height = 5.8.
 
-# 6. Tập hợp (Set)
-my_set = {1, 2, 3, 2}
-print("my_set:", my_set, type(my_set))   # sẽ tự loại bỏ phần tử trùng
+3. Chuỗi (String):
 
-# 7. Từ điển (Dictionary)
-my_dict = {"name": "Alice", "age": 20}
-print("my_dict:", my_dict, type(my_dict))
+Kiểu str dùng để lưu trữ văn bản (chuỗi ký tự).
 
-# 8. NoneType
-z = None
-print("z:", z, type(z))
+Ví dụ: name = "Alice", greeting = 'Hello, World!'.
+
+4. Boolean (Giá trị logic):
+
+Kiểu bool chỉ có hai giá trị là True hoặc False.
+
+Ví dụ: is_active = True, is_valid = False.
+
+6. Danh sách (List):
+
+Kiểu list là một tập hợp có thứ tự, có thể chứa các phần tử khác nhau.
+
+Ví dụ: numbers = [1, 2, 3, 4], names = ["Alice", "Bob", "Charlie"].
+
+7. Tuple:
+
+Kiểu tuple cũng là một tập hợp có thứ tự như list, nhưng các phần tử trong tuple là không thể thay đổi (immutable).
+
+Ví dụ: coordinates = (10, 20), rgb = (255, 0, 0).
+
+8. Tập hợp (Set):
+
+Kiểu set là một tập hợp không có thứ tự và không chứa các phần tử trùng lặp.
+
+Ví dụ: fruits = {"apple", "banana", "cherry"}.
+
+9. Từ điển (Dictionary):
+
+Kiểu dict dùng để lưu trữ các cặp khóa-giá trị.
+
+Ví dụ: person = {"name": "Alice", "age": 25}.
+'''
