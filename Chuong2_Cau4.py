@@ -11,7 +11,7 @@ Kiểu float dùng để lưu trữ các số có phần thập phân.
 
 Ví dụ: pi = 3.14, height = 5.8
 
-3. Chuỗi (String):
+3. Chuỗi (String)
 
 Kiểu str dùng để lưu trữ văn bản (chuỗi ký tự).
 
