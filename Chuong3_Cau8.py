@@ -21,3 +21,4 @@ else:
 
 # Xuất kết quả
 print("Kết quả:", a, phep_toan, b, "=", kq)
+

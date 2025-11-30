@@ -8,3 +8,4 @@ for i in range(1,n+1):
         mau=mau*j
     s=s+(tu/mau)
 print("s({0},{1})={2}".format(x, n, s))
+
